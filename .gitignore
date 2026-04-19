@@ -1,0 +1,27 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Challenge1/.vs/Challenge
+/Challenge1/Challenge.Application.Filter/bin
+/Challenge1/Challenge.Application.Filter/obj
+/Challenge1/Challenge.Application.ViewModel/bin
+/Challenge1/Challenge.Application.ViewModel/obj
+/Challenge1/Challenge.Common.EmailService/bin
+/Challenge1/Challenge.Common.EmailService/obj
+/Challenge1/Challenge.Common.Extension/bin
+/Challenge1/Challenge.Common.Extension/obj
+/Challenge1/Challenge.Common.Logging/bin
+/Challenge1/Challenge.Common.Logging/obj
+/Challenge1/Challenge.Common.Mapper/bin
+/Challenge1/Challenge.Common.Mapper/obj
+/Challenge1/Challenge.Common.Util/bin
+/Challenge1/Challenge.Common.Util/obj
+/Challenge1/Challenge.Database.Database/bin
+/Challenge1/Challenge.Database.Database/obj
+/Challenge1/Challenge.Database.Models/bin
+/Challenge1/Challenge.Database.Models/obj
+/Challenge1/Challenge.UnitTest/bin
+/Challenge1/Challenge.UnitTest/obj
+/Challenge1/Challenge.Application.API/bin
+/Challenge1/Challenge.Application.API/obj
