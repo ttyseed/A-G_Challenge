@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Challenge.Application.DTO\Challenge.Application.DTO.csproj" />
+    <ProjectReference Include="..\Challenge.Application.ViewModel\Challenge.Application.ViewModel.csproj" />
+    <ProjectReference Include="..\Challenge.Common.Logging\Challenge.Common.Logging.csproj" />
+    <ProjectReference Include="..\Challenge.Database.Database\Challenge.Database.Repositories.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="16.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+<style>
+* { box-sizing: border-box; }
+body, p, div, td, li { font: 14px/1.5 Arial, sans-serif; }
+h1 { line-height: 1.2; margin: 20px 0 20px 0; text-align: center; }
+h2 { line-height: 1.2; margin: 50px 0 20px 0; }
+h3 { line-height: 1.2; display: list-item; margin: 30px 0 20px 20px; }
+ul li, ol li { margin-top: 5px; margin-bottom: 5px; }
+.ml-40 { margin-left:40px;} .ml-41 { margin-left:41px;} .ml-42 { margin-left:42px;} .ml-43 { margin-left:43px;} .ml-44 { margin-left:44px;}
+.ml-45 { margin-left:45px;} .ml-46 { margin-left:46px;} .ml-47 { margin-left:47px;} .ml-48 { margin-left:48px;} .ml-49 { margin-left:49px;}
+.ml-50 { margin-left:50px;} .ml-51 { margin-left:51px;} .ml-52 { margin-left:52px;} .ml-53 { margin-left:53px;} .ml-54 { margin-left:54px;}
+.ml-55 { margin-left:55px;} .ml-56 { margin-left:56px;} .ml-57 { margin-left:57px;} .ml-58 { margin-left:58px;} .ml-59 { margin-left:59px;}
+.ml-60 { margin-left:60px;} .ml-61 { margin-left:61px;} .ml-62 { margin-left:62px;} .ml-63 { margin-left:63px;} .ml-64 { margin-left:64px;}
+.ml-65 { margin-left:65px;} .ml-66 { margin-left:66px;} .ml-67 { margin-left:67px;} .ml-68 { margin-left:68px;} .ml-69 { margin-left:69px;}
+.ml-70 { margin-left:70px;} .ml-71 { margin-left:71px;} .ml-72 { margin-left:72px;} .ml-73 { margin-left:73px;} .ml-74 { margin-left:74px;}
+.ml-75 { margin-left:75px;} .ml-76 { margin-left:76px;} .ml-77 { margin-left:77px;} .ml-78 { margin-left:78px;} .ml-79 { margin-left:79px;}
+.ml-80 { margin-left:80px;} .ml-85 { margin-left:85px;} .ml-90 { margin-left:90px;} .ml-100 { margin-left:100px;}
+.pl-10 ul,.pl-10 ol { margin-left:1em;} .pl-11 ul,.pl-11 ol { margin-left:1.1em;} .pl-12 ul,.pl-12 ol { margin-left:1.2em;}
+.pl-13 ul,.pl-13 ol { margin-left:1.3em;} .pl-14 ul,.pl-14 ol { margin-left:1.4em;} .pl-15 ul,.pl-15 ol { margin-left:1.5em;}
+.pl-16 ul,.pl-16 ol { margin-left:1.6em;} .pl-17 ul,.pl-17 ol { margin-left:1.7em;} .pl-18 ul,.pl-18 ol { margin-left:1.8em;}
+.pl-19 ul,.pl-19 ol { margin-left:1.9em;} .pl-2 ul,.pl-2 ol { margin-left:2em;} .pl-3 ul,.pl-3 ol { margin-left:5em;}
+</style>

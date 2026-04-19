@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Challenge.Application.DTO\Challenge.Application.DTO.csproj" />
+    <ProjectReference Include="..\Challenge.Application.Filter\Challenge.Application.Filter.csproj" />
+    <ProjectReference Include="..\Challenge.Common.Logging\Challenge.Common.Logging.csproj" />
+    <ProjectReference Include="..\Challenge.Common.Util\Challenge.Common.Util.csproj" />
+    <ProjectReference Include="..\Challenge.Database.Models\Challenge.Database.Models.csproj" />
+  </ItemGroup>
+
+</Project>

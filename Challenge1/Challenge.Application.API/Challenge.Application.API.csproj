@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <UserSecretsId>8ba998f6-00aa-4df6-9986-ecbb88f4f434</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.23.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.0" />
+    <PackageReference Include="Microsoft.OpenApi" Version="2.3.0" />
+    <PackageReference Include="NWebsec.AspNetCore.Middleware" Version="3.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Challenge.Application.Bll\Challenge.Application.Bll.csproj" />
+    <ProjectReference Include="..\Challenge.Application.ViewModel\Challenge.Application.ViewModel.csproj" />
+    <ProjectReference Include="..\Challenge.Common.EmailService\Challenge.Common.EmailService.csproj" />
+    <ProjectReference Include="..\Challenge.Common.Extension\Challenge.Common.Extension.csproj" />
+    <ProjectReference Include="..\Challenge.Common.Logging\Challenge.Common.Logging.csproj" />
+    <ProjectReference Include="..\Challenge.Common.Mapper\Challenge.Common.Mapper.csproj" />
+    <ProjectReference Include="..\Challenge.Common.Util\Challenge.Common.Util.csproj" />
+    <ProjectReference Include="..\Challenge.Database.Database\Challenge.Database.Repositories.csproj" />
+    <ProjectReference Include="..\Challenge.Database.Models\Challenge.Database.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="cert.pfx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

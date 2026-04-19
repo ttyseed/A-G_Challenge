@@ -1,0 +1,17 @@
+@SIMSYS.Application.API_HostAddress = https://localhost:7234
+
+POST {{SIMSYS.Application.API_HostAddress}}/backenduser/GetByLoginId 
+Accept: */*
+Content-Type: application/json
+
+"abc"
+###
+
+POST {{SIMSYS.Application.API_HostAddress}}/backenduser/GetUser 
+Accept: */*
+Content-Type: application/json
+
+{
+    "loginId": "abc"
+}
+###
